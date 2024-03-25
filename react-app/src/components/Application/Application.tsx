@@ -1,4 +1,4 @@
-export const Application = () => {
+const Application = () => {
   return (
     <>
       <h1>Job application form</h1>
@@ -18,10 +18,10 @@ export const Application = () => {
             onChange={() => {}}
           />
         </div>
-        <div>
+        {/* <div>
           <label htmlFor="bio">Bio</label>
           <textarea id="bio" />
-        </div>
+        </div> */}
         <div>
           <label htmlFor="job-location">Job location</label>
           <select id="job-location">
@@ -44,3 +44,5 @@ export const Application = () => {
     </>
   );
 };
+
+export default Application;
