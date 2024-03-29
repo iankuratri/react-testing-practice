@@ -49,5 +49,8 @@
       "src/components/**/*.{ts,tsx}",
       "!src/components/**/*.{types,stories,constants,test,spec}.{ts,tsx}"
     ]
+  },
+  "devDependencies": {
+    "msw": "^2.2.13"
   }
 }
