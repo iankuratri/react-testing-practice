@@ -1,11 +1,14 @@
 import "./App.css";
-import Skills from "./components/Skills/Skills";
+import { MuiMode } from "./components/Mui/MuiMode";
+import { AppProviders } from "./providers/AppProviders";
 
 function App() {
   return (
-    <div className="App">
-      <Skills skills={["HTML", "CSS", "JavaScript"]} />
-    </div>
+    <AppProviders>
+      <div className="App">
+        <MuiMode />
+      </div>
+    </AppProviders>
   );
 }
 
